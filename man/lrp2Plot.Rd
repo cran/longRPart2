@@ -4,17 +4,19 @@
 \alias{lrp2Plot}
 \title{Longitudinal Recursive Partitioning Plotting Function}
 \usage{
-lrp2Plot(model)
+lrp2Plot(model, smooth_method = "loess")
 }
 \arguments{
 \item{model}{A longrpart2 model.}
+
+\item{smooth_method}{Whether to use generalized additive models, smooth_method="gam",
+or loess, smooth_method="loess". Defaults to loess.}
 }
 \description{
 Longitudinal Recursive Partitioning Plotting Function
 }
 \examples{
 library(longRPart2)
-# example goes here
 }
 \keyword{effects}
 \keyword{longitudinal}

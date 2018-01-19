@@ -64,7 +64,7 @@ lcart.mod1 <- lrp(method="nlme",
 data(lcart.mod1)
 summary(lcart.mod1)
 plot(lcart.mod1)
-lrp2Plot(lcart.mod1)
+#lrp2Plot(lcart.mod1)
 
 }
 \keyword{effects}
